@@ -18,11 +18,14 @@ public class BaseEntity {
 	@Id
 	@GeneratedValue
 	private Long id;
-	private String isDeleted;
+
 	private String createdBy;
 	@CreationTimestamp
 	private Date createdOn;
+
 	private String updatedBy;
 	@UpdateTimestamp
 	private Date updatedOn;
+
+	private String isDeleted;
 }

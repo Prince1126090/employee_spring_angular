@@ -66,7 +66,6 @@ public class EmployeeService {
 		try {
 			date = formatter.parse(dateInString);
 		} catch (ParseException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		employeeOne.setDateOfBirth(date);
