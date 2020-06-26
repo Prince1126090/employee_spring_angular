@@ -13,7 +13,7 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 @Data
 @Entity
-@Table(name = "employee", schema = "test")
+@Table(name = "employee")
 public class Employee extends BaseEntity {
 
 	@NotNull
